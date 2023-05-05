@@ -1,0 +1,19 @@
+.register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    form {
+        background-color: aquamarine;
+        border: none;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 400px;
+        height: 250px;
+    }
+}

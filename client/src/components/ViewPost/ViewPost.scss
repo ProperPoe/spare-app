@@ -1,0 +1,19 @@
+.view-card-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 10px;
+    gap: 20px;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+
+        .top-left{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
